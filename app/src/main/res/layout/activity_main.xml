@@ -21,6 +21,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/city_madrid_text"
+        android:theme="@style/PressedButton"
         />
 
     <Button
@@ -29,6 +30,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/city_loja_text"
+        android:theme="@style/PressedButton"
         />
 
 </LinearLayout>
