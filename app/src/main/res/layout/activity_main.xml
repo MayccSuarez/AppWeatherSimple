@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         android:text="@string/welcome_text"
         />
 
