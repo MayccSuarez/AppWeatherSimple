@@ -3,5 +3,5 @@
 
     <string name="welcome_text">Hola bienvenido a la app del clima</string>
     <string name="city_madrid_text">CLIMA MADRID</string>
-
+    <string name="city_loja_text">CLIMA LOJA</string>
 </resources>
