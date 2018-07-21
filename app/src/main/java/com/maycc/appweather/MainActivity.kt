@@ -8,6 +8,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    val TAG = "com.maycc.CIUDAD"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     private fun addListenerBtnMadridWeather() {
         btnMadridWeather.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, WeatherActivity::class.java)
-
+            intent.putExtra(TAG, "MADRID")
             startActivity(intent)
         })
     }
@@ -27,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     private fun addListenerBtnLojaWeather() {
         btnLojaWeather.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, WeatherActivity::class.java)
-
+            intent.putExtra(TAG, "LOJA")
             startActivity(intent)
         })
     }
