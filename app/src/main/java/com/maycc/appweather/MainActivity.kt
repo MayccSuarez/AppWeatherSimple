@@ -1,4 +1,4 @@
-package com.maycc.app_weather
+package com.maycc.appweather
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
