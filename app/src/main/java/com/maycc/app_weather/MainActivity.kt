@@ -13,10 +13,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         addListenerBtnMadridWeather()
+        addListenerBtnLojaWeather()
     }
 
     private fun addListenerBtnMadridWeather() {
         btnMadridWeather.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, WeatherActivity::class.java)
+
+            startActivity(intent)
+        })
+    }
+
+    private fun addListenerBtnLojaWeather() {
+        btnLojaWeather.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, WeatherActivity::class.java)
 
             startActivity(intent)
