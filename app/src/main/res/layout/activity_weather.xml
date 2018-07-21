@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,22 +19,22 @@
         tools:text="32°" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvCityName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/textView"
+        android:layout_below="@id/tvTemperature"
         android:layout_marginTop="8dp"
         android:textColor="@color/colorTextCity"
         android:textSize="24sp"
         tools:text="Loja" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/textView2"
+        android:layout_below="@id/tvCityName"
         android:layout_marginTop="8dp"
         android:textColor="@color/colorTextDescription"
         android:textSize="28sp"

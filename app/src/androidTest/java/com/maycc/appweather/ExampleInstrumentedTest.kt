@@ -1,4 +1,4 @@
-package com.maycc.app_weather
+package com.maycc.appweather
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
