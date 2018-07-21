@@ -13,18 +13,18 @@ class WeatherActivity : AppCompatActivity() {
         val city = intent.getStringExtra("CIUDAD")
 
         when (city) {
-            "MADRID" -> showMadridWeather()
-            "LOJA"   -> showLojaWeather()
+            "MADRID" -> loadDataMadridWeather()
+            "LOJA"   -> loadDataLojaWeather()
         }
     }
 
-    private fun showMadridWeather() {
+    private fun loadDataMadridWeather() {
         val madrid = City("Madrid", 30, "Soleado")
 
         showWeatherCurrentCity(madrid)
     }
 
-    private fun showLojaWeather() {
+    private fun loadDataLojaWeather() {
         val loja = City("Loja", 18, "Parcialmente nublado")
 
         showWeatherCurrentCity(loja)
