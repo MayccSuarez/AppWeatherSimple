@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App_Weather</string>
+    <string name="app_name">AppWeather</string>
 
     <string name="welcome_text">Hola bienvenido a la app del clima</string>
     <string name="city_madrid_text">CLIMA MADRID</string>
